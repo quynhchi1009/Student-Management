@@ -1,0 +1,27 @@
+#students {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#students td, 
+#students th {
+    border: 1px solid pink;
+    padding: 8px;
+}
+
+#students tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#students tr:hover {
+    background-color: aliceblue;
+}
+
+#students th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(240, 231, 218);
+    color: black;
+}
